@@ -3,11 +3,11 @@
  */
 module.exports = {
   ignoredRouteFiles: [".*"],
-  routes(defineRoutes) {
-    return defineRoutes((route) => {
-      route("*", "catchall.jsx");
-    });
-  },
+  // routes(defineRoutes) {
+  //   return defineRoutes((route) => {
+  //     route("*", "catchall.jsx");
+  //   });
+  // },
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "build/index.js",
